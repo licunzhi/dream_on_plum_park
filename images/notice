@@ -1,0 +1,9 @@
+图片也必须分开管理
+
+参照格式
+- index
+    |- images_one
+    |- images_two
+- user
+    |- images_one
+    |- images_two
