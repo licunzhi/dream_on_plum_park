@@ -62,17 +62,15 @@ div.right {
 /*高度塌陷解决
     伪元素
 */
-.right-content:after, .right-content ul:after {
+.clearfix:after, .clearfix:before{
     content: '';
-    display: block;
-    height: 0;
+    display: table;
     clear: both;
-    visibility: hidden;
 }
 /*
 针对ie浏览器
 */
-.right-content, .right-content ul:after {
+.clearfix:after {
     zoom: 1;
 }
 
@@ -105,6 +103,10 @@ div.right ul li {
 
 div.right ul{
     border-bottom: 1px solid;
+}
+
+ul.clearfix:nth-child(even) {
+    background-color: #c2c2c2;
 }
 
 li a {
