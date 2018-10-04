@@ -90,6 +90,9 @@ a.user-image {
     padding: 10px;
     border-bottom: black dashed 1px;
     border-radius: 10px;
+    width: 230px;
+    height: 230px;
+    background-image: url("./images/user/user-static.jpg");
 }
 
 img.user-image {
@@ -127,8 +130,8 @@ img.user-image {
 }
 
 .clearfix li a:hover {
-    background-color: blue;
-    color: white;
+    background-color: #f5f5f5;
+    cursor: pointer;
 }
 
 .detail-info {
