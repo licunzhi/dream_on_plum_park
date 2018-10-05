@@ -83,6 +83,7 @@ div.right {
 
 div.left-content .user-location {
     border-top: black dashed 1px;
+    margin-right: 40%;
 }
 
 a.user-image {
@@ -121,10 +122,6 @@ ul.clearfix {
     border-bottom: 1px dashed;
     background-color: gray;
 }
-
-/*ul.clearfix:nth-child(even) {
-    background-color: #c2c2c2;
-}*/
 
 ul.clearfix a {
     display: block;
