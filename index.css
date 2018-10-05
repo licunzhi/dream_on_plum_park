@@ -140,6 +140,7 @@ ul.clearfix a:hover {
     cursor: pointer;
 }
 
+/*推荐列表分支化*/
 .recommend-list li {
     float: left;
     width: 40%;
