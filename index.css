@@ -103,10 +103,10 @@ img.user-image {
     background-size: 230px 230px;
 }
 
-img.user-image:hover {
+/*img.user-image:hover {
     background: url("./images/user/flash.gif");
     background-size: 230px 230px;
-}
+}*/
 
 .left .user-card {
     padding-top: 10px;
