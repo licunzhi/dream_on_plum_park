@@ -4,9 +4,9 @@
     padding: 0px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
-/ / 字体大小 line-height: 1.5;
-/ / 行高 color: #24292e;
-/ / 字体颜色
+/*// 字体大小 line-height: 1.5;*/
+/*// 行高 color: #24292e;*/
+/*// 字体颜色*/
 }
 
 /*浏览器默认滚动条修改*/
@@ -44,7 +44,7 @@ div.header {
 
 div.container {
     margin-top: 20px;
-    height: 500px;
+    height: 100%;
     background-color: #f2f2f2;
     position: relative;
     top: 60px;
@@ -59,7 +59,7 @@ div.left {
 
 div.right {
     width: 65%;
-    height: 700px;
+    height: 100%;
     float: left;
     /*background-color: gray;*/
     overflow: auto;
