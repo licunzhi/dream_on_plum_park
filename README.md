@@ -1,2 +1,2 @@
 # dream_on_plum_park
-博客引导页面
+个人资源学习主页
